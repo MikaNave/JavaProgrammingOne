@@ -1,17 +1,19 @@
 package Chapter1;
 
 /**
- * Program to display "Welcome to Java", "Welcome to Computer Science", and "Programming is fun" to the console
+ * Program to display "Welcome to Java", "Welcome to Computer Science", and
+ * "Programming is fun" to the console
  *
  * @author Mika Nave
  */
 public class C1_1 {
-        /**
-        * Main Method 
-        *
-        * @param args arguments from command line prompt
-        */
-        public static void main(String[] args){
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
+    public static void main(String[] args) {
         //prints messages
         System.out.println("Welcome to Java");
         System.out.println("Welcome to Computer Science");
