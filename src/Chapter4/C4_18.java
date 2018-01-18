@@ -1,24 +1,26 @@
 package Chapter4;
+
 import java.util.Scanner;
+
 /**
  * Program to determine a students class and grade
  *
  * @author Mika Nave
  */
 public class C4_18 {
-/**
-* Main Method 
-*
-* @param args arguments from command line prompt
-*/
-        public static void main(String[] args) {
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
+    public static void main(String[] args) {
         System.out.print("Enter two chracters: ");
         Scanner input = new Scanner(System.in);
         String text = input.next().toUpperCase();
         String FullMajor = "";
 
-        if((text.charAt(0) != 'M' && text.charAt(0) != 'C' && text.charAt(0) != 'I') || (text.charAt(1) != '1' && text.charAt(1) != '2' && text.charAt(1) != '3' && text.charAt(1) != '4'))
-        {
+        if ((text.charAt(0) != 'M' && text.charAt(0) != 'C' && text.charAt(0) != 'I') || (text.charAt(1) != '1' && text.charAt(1) != '2' && text.charAt(1) != '3' && text.charAt(1) != '4')) {
             System.out.println("Invalid Input");
             System.exit(0);
         }
@@ -33,7 +35,7 @@ public class C4_18 {
                 FullMajor = ("Information Technology");
                 break;
         }
-       
+
         switch (text.charAt(1)) {
             case '1':
                 FullMajor = FullMajor + "Freshman";
